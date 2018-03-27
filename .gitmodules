@@ -1,3 +1,6 @@
 [submodule "submoduleZ/Seath"]
 	path = submoduleZ/Seath
 	url = https://github.com/plumkaballZ/Seath.git
+[submodule "submoduleZ/Jarvis"]
+	path = submoduleZ/Jarvis
+	url = https://github.com/plumkaballZ/Jarvis.git

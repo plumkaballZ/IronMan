@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Cors;
 using DukesArchives;
-using DukesArchives._web;
 
 namespace IronMan.Controllers
 {
@@ -13,6 +8,7 @@ namespace IronMan.Controllers
     [EnableCors("AllowAllOrigins")]
     public class ValuesController : Controller
     {
+
         // GET api/values
         [HttpGet]
         public JsonResult Get()
