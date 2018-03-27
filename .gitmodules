@@ -1,0 +1,3 @@
+[submodule "submoduleZ/Seath"]
+	path = submoduleZ/Seath
+	url = https://github.com/plumkaballZ/Seath.git
