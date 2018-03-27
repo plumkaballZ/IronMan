@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Cors;
 using DukesArchives;
+using Jarvis;
 
 namespace IronMan.Controllers
 {
@@ -8,7 +9,10 @@ namespace IronMan.Controllers
     [EnableCors("AllowAllOrigins")]
     public class ValuesController : Controller
     {
-
+        public ValuesController()
+        {
+            PilotTest test = new PilotTest();
+        }
         // GET api/values
         [HttpGet]
         public JsonResult Get()

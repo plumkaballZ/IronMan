@@ -17,6 +17,7 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\submoduleZ\Jarvis\Jarvis\Jarvis.csproj" />
     <ProjectReference Include="..\submoduleZ\Seath\submoduleZ\DukesArchives\DukesArchives\DukesArchives.csproj" />
     <ProjectReference Include="..\submodule\DukesArchives\DukesArchives\DukesArchives.csproj" />
   </ItemGroup>
