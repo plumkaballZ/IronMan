@@ -17,13 +17,11 @@ namespace IronMan.Controllers
         {
             return Json("I am Iron Man");
         }
-
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
-
         [HttpPost]
         public JsonResult Post([FromBody]IronWebRequest irnWebReq)
         {
