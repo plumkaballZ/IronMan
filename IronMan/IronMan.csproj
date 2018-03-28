@@ -18,8 +18,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\submoduleZ\Jarvis\Jarvis\Jarvis.csproj" />
+    <ProjectReference Include="..\submoduleZ\Seath\submoduleZ\BifrostX2\BifrostX2\BifrostX2.csproj" />
     <ProjectReference Include="..\submoduleZ\Seath\submoduleZ\DukesArchives\DukesArchives\DukesArchives.csproj" />
-    <ProjectReference Include="..\submodule\DukesArchives\DukesArchives\DukesArchives.csproj" />
   </ItemGroup>
 
 </Project>
