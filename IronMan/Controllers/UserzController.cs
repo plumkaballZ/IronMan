@@ -1,5 +1,5 @@
 ﻿using DukesArchives;
-using DukesArchives.web;
+using DukesArchives.warp;
 using Jarvis;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
@@ -21,12 +21,12 @@ namespace IronMan.Controllers
             return "value";
         }
         [HttpPost]
-        public JsonResult Post([FromBody]WebFrnRequest irnWebReq)
+        public JsonResult Post([FromBody]warpWebRequest irnWebReq)
         {
             return Json("We have a Hulk");
         }
 
-        public JsonResult Put([FromBody]WebFrnRequest irnWebReq)
+        public JsonResult Put([FromBody]warpWebRequest irnWebReq)
         {
             return Json("We have a Hulk");
         }
