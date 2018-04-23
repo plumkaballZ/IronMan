@@ -5,7 +5,7 @@ using DukesArchives.warp;
 
 namespace IronMan.Controllers
 {
-    [Route("MarkIArmor/[controller]")]
+    [Route("MarkI/[controller]")]
     [EnableCors("AllowAllOrigins")]
     public class ValuesController : Controller
     {
